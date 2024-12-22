@@ -378,6 +378,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "امواس", price: 500, img: "img1/ei_1731752114423-removebg-preview.png", description: "صندوق امواس" },
         { name: "شفره", price: 500, img: "img1/ei_1731752089220-removebg-preview.png", description: "قطعه الواحدة" },
         { name: "كبريت", price: 200, img: "img/ei_1731784693774-removebg-preview.png", description: "قطعه واحده" },    
+        
     ];
 
     // عرض المنتجات في الصفحة الرئيسية
