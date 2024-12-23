@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: ".خيار", price: 2500, img: "img/cucumber-7259270_1920 (1).jpg", description: "نص كيلو خيار" },
         { name: "..خيار", price: 1300, img: "img/cucumber-7259270_1920 (1).jpg", description: "ربع كيلو خيار" },
         { name: "عجور", price: 1000, img: "img/image_fx_ (4).jpg", description: "عجوره واحدة ب" },
-        { name: "تفاح", price: 1200, img: "img/ei_1734696807142-removebg-preview.png", description: "دسته 12 حبه" },
+        { name: "تفاح", price: 12000, img: "img/ei_1734696807142-removebg-preview.png", description: "دسته 12 حبه" },
         { name: "تفاح.", price: 6000, img: "img/ei_1734696807142-removebg-preview.png", description: "نص دسته" },
         { name: "تفاح..", price: 3000, img: "img/ei_1734696807142-removebg-preview.png", description: "ربع دسته" },
         { name: ".جوافه", price: 5000, img: "img/ei_1734696960682-removebg-preview.png", description: "كيلو جوافه" },
