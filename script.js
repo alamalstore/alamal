@@ -373,11 +373,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: ".معجون اسنان", price: 2000, img: "img1/ei_1731751923147-removebg-preview.png", description: "معجون سنجل حجم وسط" },
         { name: "..معجون اسنان", price: 1000, img: "img1/ei_1731751951638-removebg-preview.png", description: "معجون سنجل حجم صغير" },
         { name: "معجون اسنان.", price: 1000, img: "img1/ei_1731780314653-removebg-preview.png", description: "معجون الغفران" },
-        { name: "فرشة اسنان", price: 800, img: "img1/ei_1731751998032-removebg-preview.png", description: "ناعم وسط خشن الاختيار بعد ارسال الفاتوره" },
-        { name: "امواس", price: 100, img: "img1/ei_1731752114423-removebg-preview.png", description: "قطعه واحده" },
-        { name: "امواس", price: 500, img: "img1/ei_1731752114423-removebg-preview.png", description: "صندوق امواس" },
-        { name: "شفره", price: 500, img: "img1/ei_1731752089220-removebg-preview.png", description: "قطعه الواحدة" },
-        { name: "كبريت", price: 200, img: "img/ei_1731784693774-removebg-preview.png", description: "قطعه واحده" },    
+        { name: "فرشة اسنان", price: 800, img: "img1/ei_1731751998032-removebg-preview.png", description: "ناعم وسط خشن الاختيار بعد ارسال الفاتوره" },  
     ];
 
     // عرض المنتجات في الصفحة الرئيسية
