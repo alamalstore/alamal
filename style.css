@@ -365,51 +365,90 @@ footer p {
 .footer-images img:hover {
     transform: scale(1.1); /* تأثير تكبير الصورة عند التمرير عليها */
 }
+/* تنسيق الـ Header */
 header {
-  background-color: #f8f9fa;
-  padding: 10px 20px;
+    background: linear-gradient(45deg, #6a11cb, #2575fc); /* تدرج لوني جذاب */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid #fff; /* إضافة حد سفلي لتحديد الـ header */
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  padding: 0;
-  margin: 0;
+header .logo h1 {
+    margin: 0;
+    font-size: 36px;
 }
 
-nav ul li {
-  position: relative;
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
 
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-  font-size: 16px;
+header nav ul li {
+    margin: 0 20px;
+    position: relative;
 }
 
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ffeb3b; /* لون أصفر جذاب عند التحويم */
+}
+
+/* تنسيق القائمة المنسدلة */
 .dropdown-menu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: white;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  list-style: none;
-  padding: 10px 0;
-  margin: 0;
-  z-index: 1000;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #2575fc; /* خلفية جذابة للقائمة المنسدلة */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    z-index: 1000;
+    border-radius: 8px;
 }
 
 .dropdown-menu li {
-  padding: 5px 20px;
+    padding: 10px 20px;
 }
 
 .dropdown-menu li a {
-  color: #333;
-  font-size: 14px;
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 
+.dropdown-menu li a:hover {
+    background-color: #6a11cb; /* تغيير اللون عند التحويم */
+}
+
+/* ظهور القائمة المنسدلة عند التمرير */
 .dropdown:hover .dropdown-menu {
-  display: block;
+    display: block;
+}
+/* إضافة سهم إلى العنصر */
+.dropdown > a::after {
+    content: ' ▼'; /* إضافة السهم */
+    font-size: 14px;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+
+/* تأثير لتدوير السهم عند تحويم العنصر */
+.dropdown:hover > a::after {
+    transform: rotate(180deg); /* تدوير السهم عند التحويم */
 }
