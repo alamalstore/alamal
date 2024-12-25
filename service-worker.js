@@ -6,6 +6,8 @@ const urlsToCache = [
   "/cart.html",
   "/cart.js",
    "/food.html",
+  "/food.js",
+  "/kit.js",
    "/kitchenware.html",
   "/icons/icon-192x192.png",
   "/icons/icon-512x512.png"
