@@ -431,7 +431,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    let foodLink = document.getElementById("https://alamalstore.github.io/alamal/food.html");
+    let foodLink = document.getElementById("food-link");
 
     if (foodLink) {
         foodLink.addEventListener("click", function(event) {
