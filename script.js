@@ -431,11 +431,12 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    let foodLink = document.getElementById("food-link");
+    let menuLinks = document.querySelectorAll(".submenu a");
 
-    if (foodLink) {
-        foodLink.addEventListener("click", function(event) {
-            window.location.href = "food.html"; // الانتقال فورًا إلى صفحة الأطعمة
+    menuLinks.forEach(link => {
+        link.addEventListener("click", function(event) {
+            // السماح للروابط بالعمل بشكل طبيعي
+            window.location.href = this.href;
         });
-    }
+    });
 });
