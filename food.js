@@ -1,14 +1,4 @@
-if (window.matchMedia('(display-mode: standalone)').matches) {
-    // الموقع يُعرض كـ "تطبيق ويب"
-}
- else {
-    // الموقع يُعرض في المتصفح
-    window.addEventListener('load', function() {
-        if (!window.navigator.standalone) {
-            // يمكن إضافة إشعار للمستخدم بتثبيت التطبيق
-        }
-    });
-}
+
 
 if ("serviceWorker" in navigator) {
     navigator.serviceWorker
@@ -38,15 +28,6 @@ function addToCart(productName, productPrice) {
     updateCartCount();
 }
 
-// عرض المنتجات في الصفحة الرئيسية مع دعم البحث
-function displayProducts(products, searchQuery = '') {
-    const productContainer = document.querySelector('.product-list');
-    productContainer.innerHTML = '';  // مسح المنتجات السابقة
-
-    // تصفية المنتجات بناءً على نص البحث
-    const filteredProducts = products.filter(product => 
-        product.name.toLowerCase().includes(searchQuery.toLowerCase())
-    );
 
     filteredProducts.forEach(product => {
         const productDiv = document.createElement('div');
