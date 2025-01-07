@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const productList = [
         
         
-        { name: "لحمة ضان", price: 24000, img: "img/meat-3359248_1920 (1).jpg", description: "كيلو لحمة ضان" },
+        { name: "ho", price: 24000, img: "img/meat-3359248_1920 (1).jpg", description: "كيلو لحمة ضان" },
         { name: ".لحمة ضان", price: 12000, img: "img/meat-3359248_1920 (1).jpg", description: "نص لحمة ضان" },
         { name: "..لحمة ضان", price: 6000, img: "img/meat-3359248_1920 (1).jpg", description: "ربع لحمة ضان" },
         { name: "لحمة عجالي مفرومه", price: 15000, img: "img1/2018_5_28_21_59_16_26 (1).jpg", description: "كيلو مفرومه" },
