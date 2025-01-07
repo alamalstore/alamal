@@ -429,3 +429,13 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    let foodLink = document.getElementById("https://alamalstore.github.io/alamal/food.html");
+
+    if (foodLink) {
+        foodLink.addEventListener("click", function(event) {
+            window.location.href = "food.html"; // الانتقال فورًا إلى صفحة الأطعمة
+        });
+    }
+});
