@@ -454,3 +454,18 @@ header nav ul li a:hover {
 .dropdown:hover > a::after {
     transform: rotate(180deg); /* تدوير السهم عند التحويم */
 }
+.submenu a {
+    pointer-events: auto; /* السماح بالنقر على الروابط */
+    display: block; /* جعل الروابط تعمل كمربعات قابلة للنقر */
+    padding: 10px; /* تحسين منطقة النقر */
+    text-decoration: none; /* إزالة الخط السفلي */
+}
+.submenu {
+    display: none; /* إخفاء القائمة المنسدلة افتراضيًا */
+    position: absolute; /* وضع القائمة أسفل العنصر الرئيسي */
+    background: white; /* لون الخلفية */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* إضافة ظل */
+}
+.menu li:hover .submenu {
+    display: block; /* إظهار القائمة عند تمرير الماوس */
+}
