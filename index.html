@@ -27,6 +27,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="manifest" href="manifest.json">
     
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+    let foodLink = document.getElementById("food-link");
+
+    if (foodLink) {
+        foodLink.addEventListener("click", function(event) {
+            window.location.href = "food.html"; // الانتقال فورًا إلى صفحة الأطعمة
+        });
+    }
+});
+</script>
 
 </head>
 <body>
