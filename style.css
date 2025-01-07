@@ -37,6 +37,9 @@ header nav ul {
 header nav ul li {
     margin: 0 20px;
 }
+.me{
+    margin-bottom: 10px;  
+}
 
 header nav ul li a {
     color: white;
