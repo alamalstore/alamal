@@ -108,9 +108,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // قائمة المنتجات
     const productList = [
         
-        { name: "لحمة عجالي", price: 13000, img: "img/ai-generated-8864309_1280 (1).jpg", description: "كيلو لحمة عجالي" },
-        { name: ".لحمة عجالي", price: 6500, img: "img/ai-generated-8864309_1280 (1).jpg", description: "نص لحمة عجالي" },
-        { name: "..لحمة عجالي", price: 3300, img: "img/ai-generated-8864309_1280 (1).jpg", description: "ربع لحمه عجالي" },
+        
         { name: "لحمة ضان", price: 24000, img: "img/meat-3359248_1920 (1).jpg", description: "كيلو لحمة ضان" },
         { name: ".لحمة ضان", price: 12000, img: "img/meat-3359248_1920 (1).jpg", description: "نص لحمة ضان" },
         { name: "..لحمة ضان", price: 6000, img: "img/meat-3359248_1920 (1).jpg", description: "ربع لحمة ضان" },
