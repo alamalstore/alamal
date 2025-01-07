@@ -5,10 +5,10 @@ const urlsToCache = [
   "/script.js",
   "/cart.html",
   "/cart.js",
-   "/food.html",
+   "/index1.html",
   "/food.js",
   "/kit.js",
-   "/kitchenware.html",
+   "/index2.html",
   "/icons/icon-192x192.png",
   "/icons/icon-512x512.png"
 ];
