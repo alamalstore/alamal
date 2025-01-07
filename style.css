@@ -469,3 +469,8 @@ header nav ul li a:hover {
 .menu li:hover .submenu {
     display: block; /* إظهار القائمة عند تمرير الماوس */
 }
+.al{
+    font-size: 150%;
+    color: white;
+    text-decoration: none;
+}
