@@ -126,9 +126,9 @@ function createWhatsAppLink(totalPrice) {
 document.addEventListener('DOMContentLoaded', function() {
     // قائمة المنتجات
     const productList = [
-        { name: "بصل", price: 2000, img: "img/onions-1397037_1920 (1).jpg", description: "ملوة بصل" },
-        { name: ".بصل", price: 4000, img: "img/onions-1397037_1920 (1).jpg", description: "نص ربع بصل" },
-        { name: "..بصل", price: 8000, img: "img/onions-1397037_1920 (1).jpg", description: "ربع بصل" },
+        { name: "بصل", price: 1500, img: "img/onions-1397037_1920 (1).jpg", description: "ملوة بصل" },
+        { name: ".بصل", price: 2300, img: "img/onions-1397037_1920 (1).jpg", description: "نص ربع بصل" },
+        { name: "..بصل", price: 4500, img: "img/onions-1397037_1920 (1).jpg", description: "ربع بصل" },
         { name: " صلصه مجانا", price: 500, img: "img1/ei_1731593282850-removebg-preview.jpg", description: "ظرف صلصله مجانا يمكنك اختيار عدة ظروف" },
         { name: "صلصه", price: 3600, img: "img1/ei_1731600621391-removebg-preview.jpg", description: "علبة صلصة الفراشه" },
         { name: ".صلصه", price: 3600, img: "img1/ei_1731600652049-removebg-preview.jpg", description: "علبة صلصة سعيد" },
