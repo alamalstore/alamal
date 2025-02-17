@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "دجاج.", price: 6000, img: "img1/9B7AB858-ED5E-45D8-9974-888B513E12CE.jpg", description: "نص كيلو دجاج" },
         { name: "بيض", price: 600, img: "img/ei_1731780353147-removebg-preview.jpg", description: "بيضه واحده ب" },
         { name: "بيض.", price: 3000, img: "img/ei_1731780353147-removebg-preview.jpg", description: "5 بيضه ب" },
-        { name: "طقم بيض", price: 14500, img: "img/ei_1731780335724-removebg-preview.jpg", description: "طقم بيض " },
+        { name: "طقم بيض", price: 7000, img: "img/ei_1731780335724-removebg-preview.jpg", description: "طقم بيض " },
         
   
     ];
