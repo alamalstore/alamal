@@ -339,8 +339,8 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: ".زيت تحمير", price: 2000, img: "img1/ei_1731592819883-removebg-preview.jpg", description: "نص رطل زيت تحمير" },
         { name: ".زيت تحمير.", price: 1000, img: "img1/ei_1731592819883-removebg-preview.jpg", description: "نص رطل زيت تحمير" },
         { name: "زيت فول-", price: 20000, img: "img1/ei_1734856577503-removebg-preview.jpg", description: "زيت فول نقي" },
-        { name: "زيت رويال", price: 5500, img: "img1/ei_1734807243575-removebg-preview (1).jpg", description: "زيت رويال" },
-        { name: "زيت رويال", price: 26000, img: "img/1731592288427.jpg", description: "زيت رويال 4لتر" },
+        { name: "زيت رويال", price: 5500, img: "img1/IMG_٢٠٢٥٠٢١٩_١٠٢٧٢٣_(600_x_600_pixel).jpg", description: "زيت رويال" },
+        { name: ".زيت رويال", price: 26000, img: "img/IMG_٢٠٢٥٠٢١٩_١٠٢٨١٢_(600_x_600_pixel).jpg", description: "زيت رويال 4لتر" },
         
         { name: "خميره", price: 300, img: "img/ei_1731749366170-removebg-preview.jpg", description: "ظرف يمكنك الاختيار عدة مرات" }, 
         { name: "باكنج باودر", price: 800, img: "img1/ei_1731755615723-removebg-preview.jpg", description: "ظرف يمكنك الاختيار عدة مرات" }, 
