@@ -126,14 +126,15 @@ function createWhatsAppLink(totalPrice) {
 document.addEventListener('DOMContentLoaded', function() {
     // قائمة المنتجات
     const productList = [
-        { name: "زيت فول", price: 1000, img: "img1/ei_1731592819883-removebg-preview.jpg", description: " يمكنك الاختيار حسب سعرك او عدة مرات"  },
-        { name: ".زيت فول", price: 2000, img: "img1/ei_1731592819883-removebg-preview.jpg", description: "يمكنك الاختيار حسب سعرك او عدة مرات" },
-        { name: " زيت تحمير", price: 1000, img: "img1/ei_1731592819883-removebg-preview.jpg", description: "يمكنك الاختيار حسب سعرك او عدة مرات" },
-        { name: ".زيت تحمير", price: 2000, img: "img1/ei_1731592819883-removebg-preview.jpg", description: "يمكنك الاختيار حسب سعرك او عدة مرات" },
+        { name: "زيت فول", price: 4000, img: "img1/ei_1731592819883-removebg-preview.jpg", description: " رطل زيت فول"  },
+        { name: ".زيت فول", price: 2000, img: "img1/ei_1731592819883-removebg-preview.jpg", description: "نص رطل زيت فول" },
+        { name: "زيت فول.", price: 1000, img: "img1/ei_1731592819883-removebg-preview.jpg", description: " ربع زيت فول"  },
+        { name: " زيت تحمير", price: 4000, img: "img1/ei_1731592819883-removebg-preview.jpg", description: "رطل زيت تحمير" },
+        { name: ".زيت تحمير", price: 2000, img: "img1/ei_1731592819883-removebg-preview.jpg", description: "نص رطل زيت تحمير" },
+        { name: ".زيت تحمير.", price: 1000, img: "img1/ei_1731592819883-removebg-preview.jpg", description: "نص رطل زيت تحمير" },
         { name: "زيت فول-", price: 20000, img: "img1/ei_1734856577503-removebg-preview.jpg", description: "زيت فول نقي" },
-        { name: "زيت كنوز", price: 5000, img: "img1/ei_1734807243575-removebg-preview (1).jpg", description: "زيت كنوز" },
-        { name: "زيت الوافي", price: 5000, img: "img/1731592288427.jpg", description: "زيت الوافي 900مل" },
-        { name: ".زيت الوافي", price: 19000, img: "img1/ei_1731592752318-removebg-preview.jpg", description: "زيت الوافي 4لتر" },
+        { name: "زيت رويال", price: 5500, img: "img1/IMG_٢٠٢٥٠٢١٩_١٠٢٧٢٣_(600_x_600_pixel).jpg", description: "زيت رويال" },
+        { name: ".زيت رويال", price: 26000, img: "img/IMG_٢٠٢٥٠٢١٩_١٠٢٨١٢_(600_x_600_pixel).jpg", description: "زيت رويال 4لتر" },
         
   
     ];
