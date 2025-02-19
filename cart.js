@@ -106,7 +106,7 @@ function createWhatsAppLink(productCounts, totalPrice) {
                     ` 📲 *لأي استفسارات، لا تتردد في التواصل معنا.اضغط على زر الارسال* 📲 `;
 
     // ترميز النص للـ URL
-    const whatsappUrl = `https://wa.me/249903478876?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/249923878900?text=${encodeURIComponent(message)}`;
 
     // عند الضغط على الزر يتم فتح رابط واتساب
     whatsappButton.onclick = function() {
