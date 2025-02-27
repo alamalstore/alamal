@@ -302,7 +302,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: ".طعميه", price: 1000, img: "img/1731701662444.jpg", description: "يمكنك الاختيار عدة مرات" },
         { name: "بيض", price: 600, img: "img/ei_1731780353147-removebg-preview.jpg", description: "بيضه واحده ب" },
         { name: "بيض.", price: 3000, img: "img/ei_1731780353147-removebg-preview.jpg", description: "5 بيضه ب" },
-        { name: "طقم بيض", price: 17500, img: "img/ei_1731780335724-removebg-preview.jpg", description: "طقم بيض " },
+        { name: "طقم بيض", price: 18000, img: "img/ei_1731780335724-removebg-preview.jpg", description: "طقم بيض " },
         { name: "زبادي بلدي", price: 1300, img: "img1/1731701612938.jpg", description: "رطل زبادي بلدي" },
         { name: "جبنه", price: 18000, img: "img/ei_1731751456840-removebg-preview.jpg", description: "كيلو جبنه" },
         { name: ".جبنه", price: 9000, img: "img/ei_1731751456840-removebg-preview.jpg", description: "نص كيلو" },
